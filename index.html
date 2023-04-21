@@ -1,9 +1,9 @@
 <html>
-<HEAD>
+<head>
   <title>Todo App</title>
   <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="style.css" type="text/css" MEDIA="screen" charset="utf-8">
-</HEAD>
+  <link rel="stylesheet" href="style.css" type="text/css" media="screen" charset="utf-8">
+</head>
 <body>
   <div class="aaa">
     <img src="./eisenhower-matrix.jpg">
@@ -11,6 +11,7 @@
   </div>
   <div class="centered-main-page-element">
     <p id='topSectionForAddingElementToList'>
+    <!--TODO: refactor class name according to BEM-->
       <label for="new-task">Add Item</label>
       <div class="task-row-wrapper">
         <input id='new-task'class="task" type="text">
@@ -32,6 +33,7 @@
         <input type="checkbox">
         <label class="task">Go Shopping</label>
         <input type="text" value="Go Shopping" class="task">
+        <!--value attribute contain page content and shouldn't be refactored-->
         <button class='edit'>Save</button>
         <button class="delete">
           <img src="./remove.svg">
@@ -51,6 +53,6 @@
       </li>
     </ul>
   </div>
-  <script type="text/javascript" SRC="app.js"></script>
+  <script type="text/javascript" src="app.js"></script>
 </body>
 </html>
