@@ -17,7 +17,7 @@
   width: 100%;
 }
 
-.header .header__link {
+.header .header__link {/*TODO refactor on BEM*/
   font-family: fantasy, cursive;
 }
 
@@ -35,7 +35,9 @@
   margin: 0 auto 0;
 }
 
-.task-item__label, .task-item__input, .add-item__input {
+.task-item__label, 
+.task-item__input, 
+.add-item__input {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -50,11 +52,13 @@
   padding: 0px;
 }
 
-.task-item, .task-caption {
+.task-item, 
+.task-caption {
   list-style: none;
 }
 
-.input, .button{
+.input, 
+.button{
   outline: none;
 }
 
@@ -84,7 +88,8 @@
   text-transform: uppercase;
 }
 
-.task-item__input, .add-item__input {
+.task-item__input, 
+.add-item__input {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
