@@ -50,11 +50,13 @@
   padding: 0px;
 }
 
-.task-caption, .task-item {
+.task-caption, 
+.task-item {
   list-style: none;
 }
 
-.input, .button{
+.input, 
+.button{
   outline: none;
 }
 
