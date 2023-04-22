@@ -13,6 +13,10 @@
   text-align: right;
 }
 
+.title_hidden{
+  display: none;
+}
+
 .header__img {
   width: 100%;
 }
